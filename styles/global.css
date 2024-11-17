@@ -5,6 +5,8 @@
 }
 
 :root {
+
+    /* Cores */
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
     --surface-color: #F5F5F5;
@@ -13,9 +15,17 @@
     --text-color-primary:#313131;
     --text-color-secondary: #6c6c6c;
 
+    /*fontes*/
+    --font-family: "Poppins", sans-serif;
+    --text-lg: bold 32px/125% var(--font-family);
+    --text: 16px /1.5% var(--font-family);
+    --text-md:14px/175% var(--font-family) ;
+    --text-sm: 12px/175% var(--font-family) ;
 }
 
 body {
+    font: var(--text-lg);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
+
